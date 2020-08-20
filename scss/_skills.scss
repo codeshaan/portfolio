@@ -1,0 +1,62 @@
+$skills: (
+  "HTML": "100%",
+  "CSS3": "90%",
+  "JavaScript": "70%",
+  "Bootstrap": "100%",
+  "Semantic-UI": "100%",
+  "React": "70%",
+  "Figma": "70%",
+  "SCSS": "70%",
+);
+
+@each $skill, $value in $skills {
+  .skill.#{$skill}::before {
+    content: "#{$skill}";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 70%;
+    padding: 7px 20px;
+    height: 100%;
+    width: #{$value};
+    color: #fff;
+    background: $primary-color;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    animation: skill-#{$skill} 2s ease-in-out;
+  }
+  .skill.#{$skill}::after {
+    content: "#{$value}";
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 70%;
+    padding: 7px calc(50%);
+    color: rgba(255, 255, 255, 0.445);
+  }
+  @keyframes skill-#{$skill} {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: #{$value};
+    }
+  }
+}
+
+.skill-section {
+  .skill-container {
+    margin: 3rem 0;
+  }
+
+  .skill {
+    margin: 3rem 0;
+    width: 100%;
+    background: #e6e6e6;
+    padding: 14px;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    position: relative;
+  }
+}

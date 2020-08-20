@@ -1,0 +1,62 @@
+.home {
+  .avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+  }
+
+  .my-name {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+  }
+
+  .text-intro {
+    color: lighten($primary-color, 40%);
+  }
+
+  .my-grid {
+    margin-top: -2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+
+    .avatar {
+      display: none;
+    }
+    .right-image {
+      margin-top: 4rem;
+      width: 80%;
+      filter: grayscale(100);
+      position: relative;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .my-grid {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .my-grid {
+    display: block !important;
+    text-align: center;
+
+    .avatar {
+      display: inline !important;
+      margin: 2rem 0;
+    }
+
+    .right-image {
+      display: none;
+    }
+
+    p {
+      font-size: 100%;
+    }
+  }
+}

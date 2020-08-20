@@ -1,0 +1,47 @@
+a.menu-icon,
+a.menu-icon-close {
+  color: $primary-color !important;
+  display: none;
+  font-size: 2rem !important;
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+  outline: none;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+nav {
+  width: 100%;
+  margin: auto 3.3rem;
+
+  ul.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li a {
+      font-size: 80% !important;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-family: $font-stack-raleway;
+      font-weight: 500;
+      opacity: 0.9;
+      color: $primary-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  ul.menu {
+    display: none !important;
+  }
+}

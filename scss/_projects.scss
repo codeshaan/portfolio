@@ -1,0 +1,32 @@
+.projects {
+  text-align: center;
+  padding-top: 1rem;
+  .gallery {
+    li {
+      background: #fff;
+      box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+      border-radius: 7px;
+
+      &:hover {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+      }
+    }
+
+    figcaption {
+      margin: 2rem 0;
+      background: #fff;
+
+      p {
+        color: lighten($primary-color, 40%);
+        font-size: 85% !important;
+        line-height: 1.6;
+        font-family: $font-stack-raleway;
+      }
+    }
+    a.project-link {
+      color: lighten($primary-color, 40%);
+      font-size: 80% !important;
+      text-decoration: underline;
+    }
+  }
+}

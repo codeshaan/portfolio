@@ -1,0 +1,38 @@
+$primary-color: #242424;
+$white-color: #fff;
+$font-stack-raleway: "Raleway", sans-serif;
+$font-stack-poppins: "Poppins", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $white-color;
+  color: $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack-raleway;
+}
+
+button,
+a,
+p {
+  font-size: 100% !important;
+  font-family: $font-stack-poppins;
+}
+
+@import "animation";
+@import "home";
+@import "buttons";
+@import "nav";
+@import "projects";
+@import "skills";

@@ -1,0 +1,40 @@
+$directions: "top", "bottom", "right", "left";
+$offset: "1rem", "2rem", "3rem";
+$time: "1s", "2s", "3s", "4s";
+
+@each $direction in $directions {
+  @each $value in $offset {
+    @each $sec in $time {
+      @keyframes fade-#{$direction}-#{$value}-#{$sec} {
+        0% {
+          opacity: 0;
+          #{$direction}: -#{$value};
+        }
+        100% {
+          opacity: 1;
+          #{$direction}: 0rem;
+        }
+      }
+    }
+  }
+}
+
+@each $direction in $directions {
+  @each $value in $offset {
+    @each $sec in $time {
+      .fade-#{$direction}-#{$value}-#{$sec} {
+        position: relative;
+        #{$direction}: 0rem;
+        @if $direction == "bottom" {
+          animation: fade-top-#{$value}-#{$sec} #{$sec} ease-in-out;
+        } @else if $direction == "top" {
+          animation: fade-bottom-#{$value}-#{$sec} #{$sec} ease-in-out;
+        } @else if $direction == "left" {
+          animation: fade-right-#{$value}-#{$sec} #{$sec} ease-in-out;
+        } @else if $direction == "right" {
+          animation: fade-left-#{$value}-#{$sec} #{$sec} ease-in-out;
+        }
+      }
+    }
+  }
+}
