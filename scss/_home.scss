@@ -3,6 +3,8 @@
     height: 100px;
     width: 100px;
     border-radius: 100%;
+    display: none;
+    filter: grayscale(10);
   }
 
   .my-name {
@@ -21,9 +23,6 @@
     grid-template-columns: 2fr 1fr;
     align-items: center;
 
-    .avatar {
-      display: none;
-    }
     .right-image {
       margin-top: 4rem;
       width: 80%;
@@ -47,7 +46,7 @@
     text-align: center;
 
     .avatar {
-      display: inline !important;
+      display: inline-block;
       margin: 2rem 0;
     }
 

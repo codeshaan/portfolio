@@ -845,6 +845,8 @@ p {
   height: 100px;
   width: 100px;
   border-radius: 100%;
+  display: none;
+  filter: grayscale(10);
 }
 
 .home .my-name {
@@ -862,10 +864,6 @@ p {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
-}
-
-.home .my-grid .avatar {
-  display: none;
 }
 
 .home .my-grid .right-image {
@@ -887,7 +885,7 @@ p {
     text-align: center;
   }
   .my-grid .avatar {
-    display: inline !important;
+    display: inline-block;
     margin: 2rem 0;
   }
   .my-grid .right-image {
