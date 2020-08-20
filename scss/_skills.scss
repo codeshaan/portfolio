@@ -46,12 +46,16 @@ $skills: (
 }
 
 .skill-section {
-  .skill-container {
-    margin: 3rem 0;
+  .h1 {
+    margin: 2rem 0;
+  }
+
+  .column {
+    padding: 0 2.4rem !important;
   }
 
   .skill {
-    margin: 3rem 0;
+    margin: 1.7rem 0;
     width: 100%;
     background: #e6e6e6;
     padding: 14px;
