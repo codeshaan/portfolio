@@ -25,6 +25,11 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 @keyframes fade-top-2rem-1s {
   0% {
     opacity: 0;
@@ -841,6 +846,10 @@ p {
   animation: fade-right-6rem-4s 4s ease-in-out;
 }
 
+.home .shape {
+  position: absolute;
+}
+
 .home .avatar {
   height: 200px;
   width: 200px;
@@ -893,6 +902,62 @@ p {
   }
   .my-grid p {
     font-size: 100%;
+  }
+}
+
+.home .square,
+.skill-section .square {
+  position: absolute;
+  z-index: -999;
+  top: -10rem;
+  left: 3rem;
+  height: 200px;
+  width: 200px;
+  border: 16px solid #d7d7d7;
+  border-radius: 12px;
+  transform: rotate(-45deg);
+}
+
+.home .circle,
+.skill-section .circle {
+  position: absolute;
+  bottom: 4rem;
+  left: -5rem;
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  border: 18px solid #d7d7d7;
+}
+
+.home .circle2,
+.skill-section .circle2 {
+  position: absolute;
+  top: -10rem;
+  right: -5rem;
+  height: 240px;
+  width: 240px;
+  border-radius: 100%;
+  border: 18px solid #d7d7d7;
+}
+
+@media screen and (max-width: 768px) {
+  .home .square,
+  .home .circle,
+  .home .circle2,
+  .skill-section .square,
+  .skill-section .circle,
+  .skill-section .circle2 {
+    height: 100px;
+    width: 100px;
+    border-width: 8px;
+  }
+  .home .square,
+  .skill-section .square {
+    top: 2rem;
+  }
+  .home .circle2,
+  .skill-section .circle2 {
+    top: 2rem;
   }
 }
 
@@ -987,6 +1052,11 @@ nav ul.menu li a:hover {
 
 .projects .gallery li:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+.projects .gallery li figure img {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .projects .gallery figcaption {

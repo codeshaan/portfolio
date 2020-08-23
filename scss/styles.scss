@@ -30,6 +30,11 @@ p {
   font-family: $font-stack-poppins;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 @import "animation";
 @import "home";
 @import "buttons";

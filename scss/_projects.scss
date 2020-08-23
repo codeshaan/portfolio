@@ -11,6 +11,11 @@
       &:hover {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
       }
+
+      figure img {
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+      }
     }
 
     figcaption {
