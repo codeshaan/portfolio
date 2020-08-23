@@ -26,7 +26,7 @@ $skills: (
     animation: skill-#{$skill} 2s ease-in-out;
   }
   .skill.#{$skill}::after {
-    content: "#{$value}%";
+    content: "#{$value}";
     position: absolute;
     top: 0;
     right: 0;
@@ -61,6 +61,12 @@ $skills: (
     margin: auto;
     margin-top: 3rem;
     width: 90%;
+    animation: up-down 3s infinite ease-in-out;
+  }
+  @media screen and (max-width: 768px) {
+    img {
+      width: 35%;
+    }
   }
 
   .h1 {
@@ -79,5 +85,17 @@ $skills: (
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     position: relative;
+  }
+}
+
+@keyframes up-down {
+  0% {
+    top: -2rem;
+  }
+  50% {
+    top: 0rem;
+  }
+  100% {
+    top: -2rem;
   }
 }

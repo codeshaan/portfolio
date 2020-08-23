@@ -25,50 +25,6 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
-@keyframes fade-top-1rem-1s {
-  0% {
-    opacity: 0;
-    top: -1rem;
-  }
-  100% {
-    opacity: 1;
-    top: 0rem;
-  }
-}
-
-@keyframes fade-top-1rem-2s {
-  0% {
-    opacity: 0;
-    top: -1rem;
-  }
-  100% {
-    opacity: 1;
-    top: 0rem;
-  }
-}
-
-@keyframes fade-top-1rem-3s {
-  0% {
-    opacity: 0;
-    top: -1rem;
-  }
-  100% {
-    opacity: 1;
-    top: 0rem;
-  }
-}
-
-@keyframes fade-top-1rem-4s {
-  0% {
-    opacity: 0;
-    top: -1rem;
-  }
-  100% {
-    opacity: 1;
-    top: 0rem;
-  }
-}
-
 @keyframes fade-top-2rem-1s {
   0% {
     opacity: 0;
@@ -113,10 +69,10 @@ p {
   }
 }
 
-@keyframes fade-top-3rem-1s {
+@keyframes fade-top-4rem-1s {
   0% {
     opacity: 0;
-    top: -3rem;
+    top: -4rem;
   }
   100% {
     opacity: 1;
@@ -124,10 +80,10 @@ p {
   }
 }
 
-@keyframes fade-top-3rem-2s {
+@keyframes fade-top-4rem-2s {
   0% {
     opacity: 0;
-    top: -3rem;
+    top: -4rem;
   }
   100% {
     opacity: 1;
@@ -135,10 +91,10 @@ p {
   }
 }
 
-@keyframes fade-top-3rem-3s {
+@keyframes fade-top-4rem-3s {
   0% {
     opacity: 0;
-    top: -3rem;
+    top: -4rem;
   }
   100% {
     opacity: 1;
@@ -146,10 +102,10 @@ p {
   }
 }
 
-@keyframes fade-top-3rem-4s {
+@keyframes fade-top-4rem-4s {
   0% {
     opacity: 0;
-    top: -3rem;
+    top: -4rem;
   }
   100% {
     opacity: 1;
@@ -157,47 +113,47 @@ p {
   }
 }
 
-@keyframes fade-bottom-1rem-1s {
+@keyframes fade-top-6rem-1s {
   0% {
     opacity: 0;
-    bottom: -1rem;
+    top: -6rem;
   }
   100% {
     opacity: 1;
-    bottom: 0rem;
+    top: 0rem;
   }
 }
 
-@keyframes fade-bottom-1rem-2s {
+@keyframes fade-top-6rem-2s {
   0% {
     opacity: 0;
-    bottom: -1rem;
+    top: -6rem;
   }
   100% {
     opacity: 1;
-    bottom: 0rem;
+    top: 0rem;
   }
 }
 
-@keyframes fade-bottom-1rem-3s {
+@keyframes fade-top-6rem-3s {
   0% {
     opacity: 0;
-    bottom: -1rem;
+    top: -6rem;
   }
   100% {
     opacity: 1;
-    bottom: 0rem;
+    top: 0rem;
   }
 }
 
-@keyframes fade-bottom-1rem-4s {
+@keyframes fade-top-6rem-4s {
   0% {
     opacity: 0;
-    bottom: -1rem;
+    top: -6rem;
   }
   100% {
     opacity: 1;
-    bottom: 0rem;
+    top: 0rem;
   }
 }
 
@@ -245,10 +201,10 @@ p {
   }
 }
 
-@keyframes fade-bottom-3rem-1s {
+@keyframes fade-bottom-4rem-1s {
   0% {
     opacity: 0;
-    bottom: -3rem;
+    bottom: -4rem;
   }
   100% {
     opacity: 1;
@@ -256,10 +212,10 @@ p {
   }
 }
 
-@keyframes fade-bottom-3rem-2s {
+@keyframes fade-bottom-4rem-2s {
   0% {
     opacity: 0;
-    bottom: -3rem;
+    bottom: -4rem;
   }
   100% {
     opacity: 1;
@@ -267,10 +223,10 @@ p {
   }
 }
 
-@keyframes fade-bottom-3rem-3s {
+@keyframes fade-bottom-4rem-3s {
   0% {
     opacity: 0;
-    bottom: -3rem;
+    bottom: -4rem;
   }
   100% {
     opacity: 1;
@@ -278,10 +234,10 @@ p {
   }
 }
 
-@keyframes fade-bottom-3rem-4s {
+@keyframes fade-bottom-4rem-4s {
   0% {
     opacity: 0;
-    bottom: -3rem;
+    bottom: -4rem;
   }
   100% {
     opacity: 1;
@@ -289,47 +245,47 @@ p {
   }
 }
 
-@keyframes fade-right-1rem-1s {
+@keyframes fade-bottom-6rem-1s {
   0% {
     opacity: 0;
-    right: -1rem;
+    bottom: -6rem;
   }
   100% {
     opacity: 1;
-    right: 0rem;
+    bottom: 0rem;
   }
 }
 
-@keyframes fade-right-1rem-2s {
+@keyframes fade-bottom-6rem-2s {
   0% {
     opacity: 0;
-    right: -1rem;
+    bottom: -6rem;
   }
   100% {
     opacity: 1;
-    right: 0rem;
+    bottom: 0rem;
   }
 }
 
-@keyframes fade-right-1rem-3s {
+@keyframes fade-bottom-6rem-3s {
   0% {
     opacity: 0;
-    right: -1rem;
+    bottom: -6rem;
   }
   100% {
     opacity: 1;
-    right: 0rem;
+    bottom: 0rem;
   }
 }
 
-@keyframes fade-right-1rem-4s {
+@keyframes fade-bottom-6rem-4s {
   0% {
     opacity: 0;
-    right: -1rem;
+    bottom: -6rem;
   }
   100% {
     opacity: 1;
-    right: 0rem;
+    bottom: 0rem;
   }
 }
 
@@ -377,10 +333,10 @@ p {
   }
 }
 
-@keyframes fade-right-3rem-1s {
+@keyframes fade-right-4rem-1s {
   0% {
     opacity: 0;
-    right: -3rem;
+    right: -4rem;
   }
   100% {
     opacity: 1;
@@ -388,10 +344,10 @@ p {
   }
 }
 
-@keyframes fade-right-3rem-2s {
+@keyframes fade-right-4rem-2s {
   0% {
     opacity: 0;
-    right: -3rem;
+    right: -4rem;
   }
   100% {
     opacity: 1;
@@ -399,10 +355,10 @@ p {
   }
 }
 
-@keyframes fade-right-3rem-3s {
+@keyframes fade-right-4rem-3s {
   0% {
     opacity: 0;
-    right: -3rem;
+    right: -4rem;
   }
   100% {
     opacity: 1;
@@ -410,10 +366,10 @@ p {
   }
 }
 
-@keyframes fade-right-3rem-4s {
+@keyframes fade-right-4rem-4s {
   0% {
     opacity: 0;
-    right: -3rem;
+    right: -4rem;
   }
   100% {
     opacity: 1;
@@ -421,47 +377,47 @@ p {
   }
 }
 
-@keyframes fade-left-1rem-1s {
+@keyframes fade-right-6rem-1s {
   0% {
     opacity: 0;
-    left: -1rem;
+    right: -6rem;
   }
   100% {
     opacity: 1;
-    left: 0rem;
+    right: 0rem;
   }
 }
 
-@keyframes fade-left-1rem-2s {
+@keyframes fade-right-6rem-2s {
   0% {
     opacity: 0;
-    left: -1rem;
+    right: -6rem;
   }
   100% {
     opacity: 1;
-    left: 0rem;
+    right: 0rem;
   }
 }
 
-@keyframes fade-left-1rem-3s {
+@keyframes fade-right-6rem-3s {
   0% {
     opacity: 0;
-    left: -1rem;
+    right: -6rem;
   }
   100% {
     opacity: 1;
-    left: 0rem;
+    right: 0rem;
   }
 }
 
-@keyframes fade-left-1rem-4s {
+@keyframes fade-right-6rem-4s {
   0% {
     opacity: 0;
-    left: -1rem;
+    right: -6rem;
   }
   100% {
     opacity: 1;
-    left: 0rem;
+    right: 0rem;
   }
 }
 
@@ -509,10 +465,10 @@ p {
   }
 }
 
-@keyframes fade-left-3rem-1s {
+@keyframes fade-left-4rem-1s {
   0% {
     opacity: 0;
-    left: -3rem;
+    left: -4rem;
   }
   100% {
     opacity: 1;
@@ -520,10 +476,10 @@ p {
   }
 }
 
-@keyframes fade-left-3rem-2s {
+@keyframes fade-left-4rem-2s {
   0% {
     opacity: 0;
-    left: -3rem;
+    left: -4rem;
   }
   100% {
     opacity: 1;
@@ -531,10 +487,10 @@ p {
   }
 }
 
-@keyframes fade-left-3rem-3s {
+@keyframes fade-left-4rem-3s {
   0% {
     opacity: 0;
-    left: -3rem;
+    left: -4rem;
   }
   100% {
     opacity: 1;
@@ -542,10 +498,10 @@ p {
   }
 }
 
-@keyframes fade-left-3rem-4s {
+@keyframes fade-left-4rem-4s {
   0% {
     opacity: 0;
-    left: -3rem;
+    left: -4rem;
   }
   100% {
     opacity: 1;
@@ -553,28 +509,48 @@ p {
   }
 }
 
-.fade-top-1rem-1s {
-  position: relative;
-  top: 0rem;
-  animation: fade-bottom-1rem-1s 1s ease-in-out;
+@keyframes fade-left-6rem-1s {
+  0% {
+    opacity: 0;
+    left: -6rem;
+  }
+  100% {
+    opacity: 1;
+    left: 0rem;
+  }
 }
 
-.fade-top-1rem-2s {
-  position: relative;
-  top: 0rem;
-  animation: fade-bottom-1rem-2s 2s ease-in-out;
+@keyframes fade-left-6rem-2s {
+  0% {
+    opacity: 0;
+    left: -6rem;
+  }
+  100% {
+    opacity: 1;
+    left: 0rem;
+  }
 }
 
-.fade-top-1rem-3s {
-  position: relative;
-  top: 0rem;
-  animation: fade-bottom-1rem-3s 3s ease-in-out;
+@keyframes fade-left-6rem-3s {
+  0% {
+    opacity: 0;
+    left: -6rem;
+  }
+  100% {
+    opacity: 1;
+    left: 0rem;
+  }
 }
 
-.fade-top-1rem-4s {
-  position: relative;
-  top: 0rem;
-  animation: fade-bottom-1rem-4s 4s ease-in-out;
+@keyframes fade-left-6rem-4s {
+  0% {
+    opacity: 0;
+    left: -6rem;
+  }
+  100% {
+    opacity: 1;
+    left: 0rem;
+  }
 }
 
 .fade-top-2rem-1s {
@@ -601,52 +577,52 @@ p {
   animation: fade-bottom-2rem-4s 4s ease-in-out;
 }
 
-.fade-top-3rem-1s {
+.fade-top-4rem-1s {
   position: relative;
   top: 0rem;
-  animation: fade-bottom-3rem-1s 1s ease-in-out;
+  animation: fade-bottom-4rem-1s 1s ease-in-out;
 }
 
-.fade-top-3rem-2s {
+.fade-top-4rem-2s {
   position: relative;
   top: 0rem;
-  animation: fade-bottom-3rem-2s 2s ease-in-out;
+  animation: fade-bottom-4rem-2s 2s ease-in-out;
 }
 
-.fade-top-3rem-3s {
+.fade-top-4rem-3s {
   position: relative;
   top: 0rem;
-  animation: fade-bottom-3rem-3s 3s ease-in-out;
+  animation: fade-bottom-4rem-3s 3s ease-in-out;
 }
 
-.fade-top-3rem-4s {
+.fade-top-4rem-4s {
   position: relative;
   top: 0rem;
-  animation: fade-bottom-3rem-4s 4s ease-in-out;
+  animation: fade-bottom-4rem-4s 4s ease-in-out;
 }
 
-.fade-bottom-1rem-1s {
+.fade-top-6rem-1s {
   position: relative;
-  bottom: 0rem;
-  animation: fade-top-1rem-1s 1s ease-in-out;
+  top: 0rem;
+  animation: fade-bottom-6rem-1s 1s ease-in-out;
 }
 
-.fade-bottom-1rem-2s {
+.fade-top-6rem-2s {
   position: relative;
-  bottom: 0rem;
-  animation: fade-top-1rem-2s 2s ease-in-out;
+  top: 0rem;
+  animation: fade-bottom-6rem-2s 2s ease-in-out;
 }
 
-.fade-bottom-1rem-3s {
+.fade-top-6rem-3s {
   position: relative;
-  bottom: 0rem;
-  animation: fade-top-1rem-3s 3s ease-in-out;
+  top: 0rem;
+  animation: fade-bottom-6rem-3s 3s ease-in-out;
 }
 
-.fade-bottom-1rem-4s {
+.fade-top-6rem-4s {
   position: relative;
-  bottom: 0rem;
-  animation: fade-top-1rem-4s 4s ease-in-out;
+  top: 0rem;
+  animation: fade-bottom-6rem-4s 4s ease-in-out;
 }
 
 .fade-bottom-2rem-1s {
@@ -673,52 +649,52 @@ p {
   animation: fade-top-2rem-4s 4s ease-in-out;
 }
 
-.fade-bottom-3rem-1s {
+.fade-bottom-4rem-1s {
   position: relative;
   bottom: 0rem;
-  animation: fade-top-3rem-1s 1s ease-in-out;
+  animation: fade-top-4rem-1s 1s ease-in-out;
 }
 
-.fade-bottom-3rem-2s {
+.fade-bottom-4rem-2s {
   position: relative;
   bottom: 0rem;
-  animation: fade-top-3rem-2s 2s ease-in-out;
+  animation: fade-top-4rem-2s 2s ease-in-out;
 }
 
-.fade-bottom-3rem-3s {
+.fade-bottom-4rem-3s {
   position: relative;
   bottom: 0rem;
-  animation: fade-top-3rem-3s 3s ease-in-out;
+  animation: fade-top-4rem-3s 3s ease-in-out;
 }
 
-.fade-bottom-3rem-4s {
+.fade-bottom-4rem-4s {
   position: relative;
   bottom: 0rem;
-  animation: fade-top-3rem-4s 4s ease-in-out;
+  animation: fade-top-4rem-4s 4s ease-in-out;
 }
 
-.fade-right-1rem-1s {
+.fade-bottom-6rem-1s {
   position: relative;
-  right: 0rem;
-  animation: fade-left-1rem-1s 1s ease-in-out;
+  bottom: 0rem;
+  animation: fade-top-6rem-1s 1s ease-in-out;
 }
 
-.fade-right-1rem-2s {
+.fade-bottom-6rem-2s {
   position: relative;
-  right: 0rem;
-  animation: fade-left-1rem-2s 2s ease-in-out;
+  bottom: 0rem;
+  animation: fade-top-6rem-2s 2s ease-in-out;
 }
 
-.fade-right-1rem-3s {
+.fade-bottom-6rem-3s {
   position: relative;
-  right: 0rem;
-  animation: fade-left-1rem-3s 3s ease-in-out;
+  bottom: 0rem;
+  animation: fade-top-6rem-3s 3s ease-in-out;
 }
 
-.fade-right-1rem-4s {
+.fade-bottom-6rem-4s {
   position: relative;
-  right: 0rem;
-  animation: fade-left-1rem-4s 4s ease-in-out;
+  bottom: 0rem;
+  animation: fade-top-6rem-4s 4s ease-in-out;
 }
 
 .fade-right-2rem-1s {
@@ -745,52 +721,52 @@ p {
   animation: fade-left-2rem-4s 4s ease-in-out;
 }
 
-.fade-right-3rem-1s {
+.fade-right-4rem-1s {
   position: relative;
   right: 0rem;
-  animation: fade-left-3rem-1s 1s ease-in-out;
+  animation: fade-left-4rem-1s 1s ease-in-out;
 }
 
-.fade-right-3rem-2s {
+.fade-right-4rem-2s {
   position: relative;
   right: 0rem;
-  animation: fade-left-3rem-2s 2s ease-in-out;
+  animation: fade-left-4rem-2s 2s ease-in-out;
 }
 
-.fade-right-3rem-3s {
+.fade-right-4rem-3s {
   position: relative;
   right: 0rem;
-  animation: fade-left-3rem-3s 3s ease-in-out;
+  animation: fade-left-4rem-3s 3s ease-in-out;
 }
 
-.fade-right-3rem-4s {
+.fade-right-4rem-4s {
   position: relative;
   right: 0rem;
-  animation: fade-left-3rem-4s 4s ease-in-out;
+  animation: fade-left-4rem-4s 4s ease-in-out;
 }
 
-.fade-left-1rem-1s {
+.fade-right-6rem-1s {
   position: relative;
-  left: 0rem;
-  animation: fade-right-1rem-1s 1s ease-in-out;
+  right: 0rem;
+  animation: fade-left-6rem-1s 1s ease-in-out;
 }
 
-.fade-left-1rem-2s {
+.fade-right-6rem-2s {
   position: relative;
-  left: 0rem;
-  animation: fade-right-1rem-2s 2s ease-in-out;
+  right: 0rem;
+  animation: fade-left-6rem-2s 2s ease-in-out;
 }
 
-.fade-left-1rem-3s {
+.fade-right-6rem-3s {
   position: relative;
-  left: 0rem;
-  animation: fade-right-1rem-3s 3s ease-in-out;
+  right: 0rem;
+  animation: fade-left-6rem-3s 3s ease-in-out;
 }
 
-.fade-left-1rem-4s {
+.fade-right-6rem-4s {
   position: relative;
-  left: 0rem;
-  animation: fade-right-1rem-4s 4s ease-in-out;
+  right: 0rem;
+  animation: fade-left-6rem-4s 4s ease-in-out;
 }
 
 .fade-left-2rem-1s {
@@ -817,28 +793,52 @@ p {
   animation: fade-right-2rem-4s 4s ease-in-out;
 }
 
-.fade-left-3rem-1s {
+.fade-left-4rem-1s {
   position: relative;
   left: 0rem;
-  animation: fade-right-3rem-1s 1s ease-in-out;
+  animation: fade-right-4rem-1s 1s ease-in-out;
 }
 
-.fade-left-3rem-2s {
+.fade-left-4rem-2s {
   position: relative;
   left: 0rem;
-  animation: fade-right-3rem-2s 2s ease-in-out;
+  animation: fade-right-4rem-2s 2s ease-in-out;
 }
 
-.fade-left-3rem-3s {
+.fade-left-4rem-3s {
   position: relative;
   left: 0rem;
-  animation: fade-right-3rem-3s 3s ease-in-out;
+  animation: fade-right-4rem-3s 3s ease-in-out;
 }
 
-.fade-left-3rem-4s {
+.fade-left-4rem-4s {
   position: relative;
   left: 0rem;
-  animation: fade-right-3rem-4s 4s ease-in-out;
+  animation: fade-right-4rem-4s 4s ease-in-out;
+}
+
+.fade-left-6rem-1s {
+  position: relative;
+  left: 0rem;
+  animation: fade-right-6rem-1s 1s ease-in-out;
+}
+
+.fade-left-6rem-2s {
+  position: relative;
+  left: 0rem;
+  animation: fade-right-6rem-2s 2s ease-in-out;
+}
+
+.fade-left-6rem-3s {
+  position: relative;
+  left: 0rem;
+  animation: fade-right-6rem-3s 3s ease-in-out;
+}
+
+.fade-left-6rem-4s {
+  position: relative;
+  left: 0rem;
+  animation: fade-right-6rem-4s 4s ease-in-out;
 }
 
 .home .avatar {
@@ -973,7 +973,10 @@ nav ul.menu li a:hover {
 
 .projects {
   text-align: center;
-  padding-top: 1rem;
+}
+
+.projects .gallery {
+  padding: 2rem 0;
 }
 
 .projects .gallery li {
@@ -989,6 +992,10 @@ nav ul.menu li a:hover {
 .projects .gallery figcaption {
   margin: 2rem 0;
   background: #fff;
+}
+
+.projects .gallery figcaption h2 {
+  color: #242424;
 }
 
 .projects .gallery figcaption p {
@@ -1022,7 +1029,7 @@ nav ul.menu li a:hover {
 }
 
 .skill.HTML::after {
-  content: "100%%";
+  content: "100%";
   position: absolute;
   top: 0;
   right: 0;
@@ -1062,7 +1069,7 @@ nav ul.menu li a:hover {
 }
 
 .skill.CSS3::after {
-  content: "90%%";
+  content: "90%";
   position: absolute;
   top: 0;
   right: 0;
@@ -1102,7 +1109,7 @@ nav ul.menu li a:hover {
 }
 
 .skill.JavaScript::after {
-  content: "70%%";
+  content: "70%";
   position: absolute;
   top: 0;
   right: 0;
@@ -1142,7 +1149,7 @@ nav ul.menu li a:hover {
 }
 
 .skill.Bootstrap::after {
-  content: "100%%";
+  content: "100%";
   position: absolute;
   top: 0;
   right: 0;
@@ -1182,7 +1189,7 @@ nav ul.menu li a:hover {
 }
 
 .skill.React::after {
-  content: "70%%";
+  content: "70%";
   position: absolute;
   top: 0;
   right: 0;
@@ -1222,7 +1229,7 @@ nav ul.menu li a:hover {
 }
 
 .skill.Figma::after {
-  content: "70%%";
+  content: "70%";
   position: absolute;
   top: 0;
   right: 0;
@@ -1262,7 +1269,7 @@ nav ul.menu li a:hover {
 }
 
 .skill.SCSS::after {
-  content: "70%%";
+  content: "70%";
   position: absolute;
   top: 0;
   right: 0;
@@ -1298,6 +1305,13 @@ nav ul.menu li a:hover {
   margin: auto;
   margin-top: 3rem;
   width: 90%;
+  animation: up-down 3s infinite ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-section img {
+    width: 35%;
+  }
 }
 
 .skill-section .h1 {
@@ -1316,5 +1330,17 @@ nav ul.menu li a:hover {
   border-top-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   position: relative;
+}
+
+@keyframes up-down {
+  0% {
+    top: -2rem;
+  }
+  50% {
+    top: 0rem;
+  }
+  100% {
+    top: -2rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

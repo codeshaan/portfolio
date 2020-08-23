@@ -6,44 +6,37 @@
     <title>Shaan Alam - @shaancodes</title>
     <link rel="stylesheet" href="css/webslides.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
   </head>
   <body>
-    <main role="role">
-      <article id="webslides" class="horizontal">
+    <main role="main">
+      <article id="webslides" class="vertical">
         <!-- slide 1 - homepage -->
-        <section class="home">
-          <!-- <nav>
-            <ul class="menu">
-              <li><a href="#!">Home</a></li>
-              <li><a href="#!">Projects</a></li>
-              <li><a href="#!">Skills</a></li>
-              <li><a href="#!">Contact</a></li>
-            </ul>
-          </nav> -->
+        <section id="section-1" class="home">
           <div class="wrap">
             <div class="my-grid">
               <div class="col">
                 <img
                   src="./images/LRM_EXPORT_171333817350761_20181018_145331361.jpeg"
-                  class="avatar fade-bottom-2rem-2s"
+                  class="avatar fade-bottom-4rem-2s"
                   alt=""
                 />
-                <h1 class="my-name fade-bottom-1rem-1s">
+                <h1 class="my-name fade-bottom-4rem-1s">
                   Shaan Alam
                 </h1>
-                <p class="text-intro fade-bottom-1rem-1s">
+                <p class="text-intro fade-bottom-4rem-1s">
                   I create Landing Pages, UI designs, React apps & work with
                   Front End Development Technologies.
                 </p>
-                <a class="primary-button fade-left-2rem-1s" data-aos="fade-left"
+                <a
+                  class="primary-button fade-right-4rem-1s"
+                  data-aos="fade-left"
                   >See Projects</a
                 >
               </div>
               <div class="col">
                 <img
                   src="./images/LRM_EXPORT_171333817350761_20181018_145331361.jpeg"
-                  class="right-image fade-right-2rem-1s"
+                  class="right-image fade-right-4rem-1s"
                   alt=""
                 />
               </div>
@@ -52,14 +45,19 @@
         </section>
 
         <!-- section 1 projects -->
-        <section class="projects">
+        <section class="projects fullscreen bg-black">
+          <span
+            class="background background-center dark"
+            style="background-image: url('./images/bg-projects.jfif');"
+          ></span>
+
           <div class="wrap">
-            <h1 class="fade-bottom-1rem-1s">
+            <h1 class="fade-bottom-4rem-1s">
               Projects
             </h1>
 
             <ul class="flexblock gallery">
-              <li class="fade-bottom-1rem-1s">
+              <li class="fade-bottom-4rem-1s">
                 <figure>
                   <img
                     src="./images/expensetracker.png"
@@ -85,7 +83,7 @@
                   </figcaption>
                 </figure>
               </li>
-              <li class="fade-bottom-2rem-1s">
+              <li class="fade-bottom-4rem-1s">
                 <figure>
                   <img src="./images/covidreact.png" class="project-image" />
                   <figcaption>
@@ -108,7 +106,7 @@
                   </figcaption>
                 </figure>
               </li>
-              <li class="fade-bottom-3rem-1s">
+              <li class="fade-bottom-6rem-1s">
                 <figure>
                   <img src="./images/covidredux.png" class="project-image" />
                   <figcaption>
@@ -131,7 +129,7 @@
                   </figcaption>
                 </figure>
               </li>
-              <li class="fade-bottom-3rem-2s">
+              <li class="fade-bottom-6rem-2s">
                 <figure>
                   <img src="./images/landingpage.png" class="project-image" />
                   <figcaption>
@@ -159,13 +157,17 @@
         </section>
 
         <!-- section projects 2 -->
-        <section class="projects">
+        <section class="projects fullscreen bg-black">
+          <span
+            class="background background-center dark"
+            style="background-image: url('./images/keyboard.jpg');"
+          ></span>
           <div class="wrap">
-            <h1 class="fade-bottom-1rem-1s">
+            <h1 class="fade-bottom-4rem-1s">
               Projects
             </h1>
             <ul class="flexblock gallery">
-              <li class="fade-bottom-1rem-1s">
+              <li class="fade-bottom-4rem-1s">
                 <figure>
                   <img src="./images/todoapp.png" class="project-image" />
                   <figcaption>
@@ -188,7 +190,7 @@
                   </figcaption>
                 </figure>
               </li>
-              <li class="fade-bottom-2rem-1s">
+              <li class="fade-bottom-4rem-1s">
                 <figure>
                   <img src="./images/uicolorpicker.png" class="project-image" />
                   <figcaption>
@@ -211,7 +213,7 @@
                   </figcaption>
                 </figure>
               </li>
-              <li class="fade-bottom-3rem-1s">
+              <li class="fade-bottom-6rem-1s">
                 <figure>
                   <img src="./images/landingpage2.png" class="project-image" />
                   <figcaption>
@@ -231,14 +233,14 @@
         </section>
 
         <!-- skills -->
-        <section class="skill-section">
+        <section class="fullscreen skill-section">
           <div class="wrap">
-            <h1 class="aligncenter fade-bottom-1rem-1s">Skills</h1>
+            <h1 class="aligncenter fade-bottom-4rem-1s">Skills</h1>
             <div class="grid">
               <div class="column">
                 <img
                   src="./images/skills2.svg"
-                  class="img fade-bottom-1rem-1s"
+                  class="img fade-bottom-4rem-1s"
                   alt=""
                 />
               </div>
@@ -247,7 +249,7 @@
                 <div class="skill CSS3"></div>
                 <div class="skill JavaScript"></div>
                 <div class="skill Bootstrap"></div>
-                <div class="skill SCSS"></div>
+                <!-- <div class="skill SCSS"></div> -->
                 <div class="skill React"></div>
                 <div class="skill Figma"></div>
               </div>
@@ -263,7 +265,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       window.ws = new WebSlides();
-      // AOS.init();
     </script>
   </body>
 </html>
