@@ -1,0 +1,44 @@
+.connect-section {
+  text-align: center;
+  h1 {
+    margin: 3rem 0;
+  }
+
+  .social-links {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      color: $primary-color;
+      font-size: 2.5rem !important;
+
+      &.facebook:hover {
+        color: #3b5998;
+      }
+      &.instagram:hover {
+        background: linear-gradient(
+          #405de6,
+          #5851db,
+          #c13584,
+          #e1306c,
+          #fd1d1d,
+          #f56040,
+          #f77737,
+          #fcaf45,
+          #ffdc80
+        );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+      &.github:hover {
+        color: #333;
+      }
+      &.twitter:hover {
+        color: #00acee;
+      }
+    }
+  }
+}
