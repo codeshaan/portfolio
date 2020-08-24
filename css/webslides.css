@@ -1930,7 +1930,6 @@ form[class*="bg-"] {
   [class*="background-"] {
     -webkit-animation: fadeIn ease-in 0.2;
     animation: fadeIn ease-in 0.2;
-    opacity: 0.2;
   }
   .background-video {
     opacity: 0.8;
