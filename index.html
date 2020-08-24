@@ -24,11 +24,10 @@
                   alt=""
                 />
                 <h1 class="my-name fade-bottom-4rem-1s">
-                  Shaan Alam
+                  Hello, I'm Shaan Alam
                 </h1>
                 <p class="text-intro fade-bottom-4rem-1s">
-                  I create Landing Pages, UI designs, React apps & work with
-                  Front End Development Technologies.
+                  I create <span class="typed"></span> with ❤
                 </p>
                 <a href="#slide=2" class="primary-button fade-right-4rem-1s"
                   >See Projects</a
@@ -46,7 +45,7 @@
         </section>
 
         <!-- section 1 projects -->
-        <section class="projects fullscreen bg-black">
+        <section class="projects fullscreen">
           <span
             class="background background-center dark"
             style="background-image: url('./images/bg-projects.jfif');"
@@ -67,8 +66,7 @@
                     <figcaption>
                       <h2>Expense Tracker</h2>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Possimus, quam.
+                        Tech - ReactJS, SCSS, CSS
                         <br />
                         <a
                           href="https://github.com/codeshaan/react_expense_tracker"
@@ -90,8 +88,7 @@
                     <figcaption>
                       <h2>Covid-19 Tracker</h2>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Possimus, quam.
+                        Tech - ReactJS, Context API, CSS, SCSS.
                         <br />
                         <a
                           href="https://github.com/codeshaan/react-corona-tracker"
@@ -113,8 +110,7 @@
                     <figcaption>
                       <h2>Covid Tracker</h2>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Possimus, quam.
+                        Tech - ReactJS, Redux, CSS, SCSS
                         <br />
                         <a
                           href="https://github.com/codeshaan/covid-tracker-redux"
@@ -136,8 +132,7 @@
                     <figcaption>
                       <h2>Landing Page</h2>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Possimus, quam.
+                        Tech - HTML, CSS, JavaScript
                         <br />
                         <a
                           href="https://github.com/codeshaan/landing-page-1"
@@ -159,7 +154,7 @@
         </section>
 
         <!-- section projects 2 -->
-        <section class="projects fullscreen bg-black">
+        <section class="projects fullscreen">
           <span
             class="background background-center dark"
             style="background-image: url('./images/bg-projects.jfif');"
@@ -176,8 +171,7 @@
                     <figcaption>
                       <h2>Todo App</h2>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Possimus, quam.
+                        Tech - ReactJS, Redux, Shards UI
                         <br />
                         <a
                           href="https://github.com/codeshaan/redux_todoapp_example"
@@ -232,6 +226,7 @@
                         Possimus, quam.
                         <br />
                         <a href="#!" class="project-link">Github Repo</a>
+
                         <a href="#!" class="project-link">Live Demo</a>
                       </p>
                     </figcaption>
@@ -270,14 +265,84 @@
           </div>
         </section>
 
-        <section></section>
+        <section class="fullscreen contact-section">
+          <span
+            class="background"
+            style="
+              background: url('./images/contact.jpg') center center/cover fixed;
+              filter: grayscale(10);
+            "
+          ></span>
+          <div class="wrap">
+            <div class="grid">
+              <div class="column"></div>
+              <div class="column">
+                <h1>Contact</h1>
+                <form action="">
+                  <div class="form-field">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="fade-right-4rem-1s"
+                    />
+                  </div>
+                  <div class="form-field">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      class="fade-right-4rem-2s"
+                    />
+                  </div>
+                  <div class="form-field">
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="5"
+                      class="fade-right-4rem-3s"
+                    ></textarea>
+                    <a href="#!" class="primary-button fade-right-4rem-3s"
+                      >Send!</a
+                    >
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
       </article>
     </main>
 
     <script src="js/webslides.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/typed.js"></script>
+
     <script>
       window.ws = new WebSlides();
+      function externalLinks() {
+        for (
+          var c = document.getElementsByTagName("a"), a = 0;
+          a < c.length;
+          a++
+        ) {
+          var b = c[a];
+          b.getAttribute("href") &&
+            b.hostname !== location.hostname &&
+            (b.target = "_blank");
+        }
+      }
+      externalLinks();
+      var typed = new Typed(".typed", {
+        strings: [
+          "Landing Pages",
+          "UI Designs",
+          "React Apps",
+          "JavaScript Apps",
+        ],
+        typeSpeed: 40,
+        fadeOut: true,
+        backDelay: 1500,
+        loop: true,
+      });
     </script>
   </body>
 </html>

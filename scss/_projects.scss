@@ -1,5 +1,8 @@
 .projects {
   text-align: center;
+  h1 {
+    color: #fff;
+  }
 
   .gallery {
     padding: 2rem 0;
@@ -20,15 +23,16 @@
 
     figcaption {
       margin: 2rem 0;
-      background: #fff;
+      // background: #fff;
 
       h2 {
         color: $primary-color;
       }
 
       p {
-        color: lighten($primary-color, 40%);
-        font-size: 85% !important;
+        font-weight: 400;
+        color: $primary-color !important;
+        font-size: 75% !important;
         line-height: 1.6;
         font-family: $font-stack-raleway;
       }
