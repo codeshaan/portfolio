@@ -1423,13 +1423,17 @@ nav ul.menu li a:hover {
   }
 }
 
+.contact-section h1 {
+  color: #242424;
+}
+
 .contact-section .form-field {
   margin: 2rem 0;
 }
 
 .contact-section .form-field input,
 .contact-section .form-field textarea {
-  border: none;
+  border: 1px solid #d7d7d7;
   background: white;
   padding: 10px 2rem;
   border-top-left-radius: 2rem;
@@ -1487,4 +1491,3 @@ nav ul.menu li a:hover {
 .connect-section .social-links a.twitter:hover {
   color: #00acee;
 }
-/*# sourceMappingURL=styles.css.map */

@@ -1,10 +1,13 @@
 .contact-section {
+  h1 {
+    color: $primary-color;
+  }
   .form-field {
     margin: 2rem 0;
 
     input,
     textarea {
-      border: none;
+      border: 1px solid lighten($primary-color, 70%);
       background: rgb(255, 255, 255);
       padding: 10px 2rem;
       border-top-left-radius: 2rem;
