@@ -1491,3 +1491,9 @@ nav ul.menu li a:hover {
 .connect-section .social-links a.twitter:hover {
   color: #00acee;
 }
+
+@media screen and (max-width: 768px) {
+  .social-links {
+    width: 80% !important;
+  }
+}
